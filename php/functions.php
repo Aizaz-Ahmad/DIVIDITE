@@ -56,11 +56,11 @@ function sendMail($email, $code, $mode = "Verification"){
     $mail->Port = 587;
     $mail->SMTPAuth=true;
     $mail->SMTPSecure = 'tls';
-    $mail->Username = 'aizazahamd90@gmail.com';
-    $mail->Password = 'jac8kal90';
-    $mail->setFrom('aizazahamd90@gmail.com','DIVIDITE');
+    $mail->Username = 'yourusername@gmail.com';
+    $mail->Password = 'your account password';
+    $mail->setFrom('yourusername@gmail.com','DIVIDITE');
     $mail->addAddress($email);
-    $mail->addReplyTo('aizazahamd90@gmail.com');
+    $mail->addReplyTo('yourusername@gmail.com');
     $mail->isHTML(true);
     $mail->Subject = ($mode == 'Verification' ?'DIVIDITE VERIFICATION CODE' : 'DIVIDITE RESET PASSWORD LINK');
     $mail->Body = ($mode == 'Verification' ? "<h1 style='text-align:center;font-family:Calibri;'>
