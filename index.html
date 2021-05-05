@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dividite</title>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="bttn.css" />
+    <link rel="stylesheet" href="bootstrap-social.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <noscript>Javascript Should be enabled to use this site</noscript>
+    <div id="app">
+      <nav
+        class="navbar navbar-expand-sm navbar-light shadow-lg border-bottom p-3"
+      >
+        <a class="navbar-brand ml-4 text-white text-uppercase" href="index.html"
+          >Dividite</a
+        >
+        <button
+          class="navbar-toggler d-lg-none border-0"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavId"
+          aria-controls="collapsibleNavId"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i
+            style="font-size: 30px;"
+            class="fa fa-bars text-white"
+            aria-hidden="true"
+          ></i>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <div class="d-flex flex-sm-row flex-column main-links">
+            <a href="about.html" class="link">About</a>
+            <a href="#footer" class="link">Contact Us</a>
+            <a href="signup.php" class="link d-none d-md-block">Sign Up</a>
+            <a href="login.php" class="link d-none d-md-block">log in</a>
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid top-container">
+        <div class="row h-100">
+          <div class="upper-left">
+            <h1 class="main-head text-main text-shadow">DIVIDITE</h1>
+            <h4
+              class="font-weight-bold text-main text-center mt-5 mt-sm-4 railway"
+            >
+              PUCIT'S OWN RESOURCE SHARING PLATFORM
+            </h4>
+            <h4
+              class="font-weight-bold text-main text-center mt-5 mt-sm-4 railway mb-5 mb-sm-0"
+            >
+              SIGN UP TO BECOME PART OF COMMUNITY
+            </h4>
+          </div>
+          <div class="upper-right" style="background-color: var(--main-color);">
+            <h1
+              class="font-weight-bold mb-5 text-center text-white text-uppercase railway"
+              style="margin-top: 110px;"
+            >
+              Help your fellows by uploading content or use content by
+              downloading it
+            </h1>
+            <button
+              class="bttn btn-block rounded bttn-lg main-btn w-75 ml-auto mr-auto"
+              onclick="window.location.href = 'signup.php'"
+            >
+              Sign Up
+            </button>
+            <button
+              class="d-block d-md-none bttn btn-block rounded bttn-lg mt-4 main-btn w-75 ml-auto mr-auto mb-4"
+              onclick="window.location.href = 'login.php'"
+            >
+              Log In
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid lower-container">
+        <div class="row h-100">
+          <div class="lower-left" style="background-color: var(--main-color);">
+            <h1 class="text-center text-white mt-5">HOW TO USE?</h1>
+            <video src="video.mp4"></video>
+          </div>
+          <div class="lower-right">
+            <h1 class="text-center text-main mt-5">FEATURES</h1>
+            <ul class="mt-5 h4 text-center" style="list-style-type: square;">
+              <li>
+                Uplaod Content Using Simple Drag and Drop or just by browsing
+                your operating system
+              </li>
+              <li>
+                Download the file by just a simple click at download icon on
+                each file container
+              </li>
+              <li>
+                Search File Name or user by just simply typing on the search bar
+              </li>
+              <li>
+                Filter Content based on date uploaded, most downloaded,
+                subjects, category of file by just simply using the side menu
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container-fluid footer"
+        id="footer"
+        style="border-color: white;"
+      >
+        <h1 class="p-5" style="letter-spacing: 5px;">DIVIDITE</h1>
+        <div class="row">
+          <div class="col-12 col-sm-6">
+            <p
+              class="text-white text-center text-uppercase railway"
+              style="font-size: 20px;"
+            >
+              Contact Us
+            </p>
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <button
+                  type="button"
+                  class="btn btn-block btn-social-md btn-fb waves-effect"
+                >
+                  <i class="fa fa-facebook pr-1"></i> Facebook
+                </button>
+              </div>
+              <div class="col-12 col-md-6">
+                <button
+                  type="button"
+                  class="btn btn-block btn-gplus waves-effect"
+                >
+                  <i class="fa fa-google pr-1"></i> Gmail
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 mt-5 mt-sm-0">
+            <p
+              class="text-white text-center text-uppercase railway"
+              style="font-size: 20px;"
+            >
+              Utilities
+            </p>
+            <ul class="text-white">
+              <a href="" class="text-white nav-link"
+                ><li>Aggregate Calculator</li></a
+              >
+              <a href="" class="text-white nav-link"
+                ><li>CGPA Calculator</li></a
+              >
+              <a href="" class="text-white nav-link"
+                ><li>Entry Test Helping Material</li></a
+              >
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <button
+        class="btn btn-danger gotoTop-btn"
+        style="display: none;"
+        onclick="window.scrollTo(0,0)"
+      >
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+      </button>
+    </div>
+  </body>
+  <script>
+    window.onscroll = () => {
+      if (window.scrollY > 300) $('.gotoTop-btn').css('display', 'block');
+      else $('.gotoTop-btn').css('display', 'none');
+    };
+    AOS.init();
+    let handler;
+    let i = new Vue({
+      el: '#app',
+      mounted() {},
+      data() {
+        return {};
+      },
+    });
+  </script>
+</html>
