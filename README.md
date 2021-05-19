@@ -1,1 +1,2 @@
-# DIVIDITE
+<h1>DIVIDITE</h1>
+<p>A web-based, resource-sharing platform accessible only to the students of P.U.C.I.T. The students of P.U.C.I.T can Upload, download the books, slides, notes e.t.c by simply creating an account using their Official email IDs.</p>
