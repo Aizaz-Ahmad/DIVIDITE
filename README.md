@@ -1,8 +1,10 @@
 <h1>DIVIDITE</h1>
 <p>Dividite is a Latin word meaning "Share it". It is a web-based, resource-sharing platform accessible only to the students of P.U.C.I.T. The students of P.U.C.I.T can Upload and download books, slides, and notes e.t.c by simply creating an account using their Official email IDs.</p>
-<h2>📼 Demo Video</h2>
+<h2>📼 Demo</h2>
 <hr />
-[Demo Video](https://github.com/Aizaz-Ahmad/DIVIDITE/blob/main/demo-video.mp4)
+
+![demo](https://user-images.githubusercontent.com/44976514/119225801-82563480-bb1f-11eb-93e5-ff6b59add74b.gif)
+
 <h2>🧰 Technologies Used</h2>
 <hr />
 <ul>
