@@ -2,7 +2,7 @@
 <p>Dividite is a Latin word meaning "Share it". It is a web-based, resource-sharing platform accessible only to the students of P.U.C.I.T. The students of P.U.C.I.T can Upload and download books, slides, and notes e.t.c by simply creating an account using their Official email IDs.</p>
 <h2>📼 Demo Video</h2>
 <hr />
-<video src="demo-video.mp4" width="100%"></video>
+[Demo Video](./demo-video.mp4)
 <h2>🧰 Technologies Used</h2>
 <hr />
 <ul>
@@ -39,4 +39,4 @@ Run XAMPP and start APACHE and MySQL services.
 <li>Now, you are good to go and explore the features 🧨</li>
 </ol>
 <br />
-<h2 style="text-align:center;">If you liked the repo then kindly support it by giving it a star ⭐!</h2>
+<h2 style="text-align:center;">If you liked the repo then Give it a star ⭐
