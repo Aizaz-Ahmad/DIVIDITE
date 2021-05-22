@@ -2,7 +2,7 @@
 <p>Dividite is a Latin word meaning "Share it". It is a web-based, resource-sharing platform accessible only to the students of P.U.C.I.T. The students of P.U.C.I.T can Upload and download books, slides, and notes e.t.c by simply creating an account using their Official email IDs.</p>
 <h2>📼 Demo Video</h2>
 <hr />
-<video src="https://drive.google.com/file/d/125cYxWiJwC89he1n-s2C7N9SmU-GGd89/view?usp=sharing" width="100%"></video>
+<video src="demo-video.mp4" width="100%"></video>
 <h2>🧰 Technologies Used</h2>
 <hr />
 <ul>
